@@ -23,4 +23,10 @@ public class NodoDoble {
 	public NodoDoble GetAnterior() {
 		return this.anterior;
 	}
+	
+	public NodoDoble(int n) {
+		dato = n;
+		anterior = null;
+		siguiente = null;
+	}
 }

@@ -353,6 +353,7 @@ public class Lista {
 		}
 		return nueva;
 	}
+	/*
 	public static boolean EstaIncluidaSub(Lista a,Lista b) {
 		if(a.inicio.GetNodoDato() == b.inicio.GetNodoDato()) {
 			if(a.inicio.GetNodoLista()==null) {
@@ -378,4 +379,5 @@ public class Lista {
 		}
 		return false;
 	}
+	*/
 }
